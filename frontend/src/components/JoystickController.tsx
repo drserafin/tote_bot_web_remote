@@ -7,7 +7,7 @@ interface JoystickControllerProps {
 
 // Configuration for High-Safety Stair Climbing
 const MAX_RADIUS = 80;
-const DEADZONE = 0.30;       
+const DEADZONE = 0.50;       
 const MAGNET_ZONE = 0.30; 
 
 export const JoystickController = ({ onMove, disabled }: JoystickControllerProps) => {
